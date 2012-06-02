@@ -53,3 +53,4 @@ for tok in freq_dist.keys()[:50]:
 
 print str_of_toks
 
+# All this code came from Mining the Social Web by Matthew A. Russell, you should check out this book
