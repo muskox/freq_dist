@@ -36,6 +36,7 @@ for t in tweets:
 print 'total words: ' + str(len(words))
 if len(words) == 0:
     sys.exit()
+    # We don't want to divide by zero down below so bail out if you don't have any words
 
 print 'unique words: ' + str(len(set(words))) 
 
